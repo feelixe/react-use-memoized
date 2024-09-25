@@ -4,7 +4,7 @@ type FactoryFn<T> = () => T;
 
 type MemoryEntry<T> = [DependencyList, T];
 
-export function useMemoized<T>(fn: FactoryFn<T>, deps: DependencyList,) {
+export function useMemoized<T>(fn: FactoryFn<T>, deps: DependencyList,): T {
     
   const memory = useRef<MemoryEntry<T>[]>([]);
 
