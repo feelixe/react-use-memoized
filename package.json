@@ -1,14 +1,19 @@
 {
   "name": "react-use-memoized",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "useMemoized hook for React",
+  "homepage": "https://github.com/feelixe/react-use-memoized",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feelixe/react-use-memoized.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
   "keywords": ["react", "hooks", "memoization"],
   "author": "Felix Eklöf",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "react": "^18.3.1",
     "typescript": "^5.6.2"
@@ -20,7 +25,6 @@
     "package.json"
   ],
   "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0"
+    "react": ">=18.0.0"
   }
 }
